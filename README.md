@@ -2,6 +2,10 @@
 
 Spring Boot + LangChain4j + Elasticsearch + Vue3 构建的企业知识库问答系统，支持文档入库、混合检索、引用溯源、多会话记忆隔离和流式输出。
 
+## 效果预览
+
+![企业知识库问答效果](docs/screenshot.png)
+
 ## 功能特性
 
 - **混合检索**：kNN 向量检索（BGE-M3 1024 维）+ BM25 全文检索（cjk 中文分词），自研 RRF（Reciprocal Rank Fusion）加权融合，配合查询长度归一化门控与相对分数截断，兼顾语义召回与词项精度
